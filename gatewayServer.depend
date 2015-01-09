@@ -1,0 +1,198 @@
+# depslib dependency file v1.0
+1407461164 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/almacen.cpp
+	"almacen.h"
+
+1407461164 /home/sebas/Proyectos/dint/gatewayCIFIVE/almacen.h
+	<vector>
+	"cliente.h"
+
+1407461164 /home/sebas/Proyectos/dint/gatewayCIFIVE/cliente.h
+	<string>
+
+1407461164 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/cliente.cpp
+	"cliente.h"
+
+1420815564 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/fabrica.cpp
+	"fabrica.h"
+	"almacen.h"
+	"informante.h"
+	"visor.h"
+	<cstring>
+	<cstdlib>
+
+1420814282 /home/sebas/Proyectos/dint/gatewayCIFIVE/fabrica.h
+	"cliente.h"
+	"basecreator.h"
+	<map>
+
+1420807080 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/main.cpp
+	<iostream>
+	"mythread.h"
+	"server.h"
+
+1407461164 /home/sebas/Proyectos/dint/gatewayCIFIVE/mythread.h
+	<iostream>
+	<string>
+	<pthread.h>
+	<unistd.h>
+	<cstdlib>
+
+1407461164 /home/sebas/Proyectos/dint/gatewayCIFIVE/server.h
+	<iostream>
+	<vector>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+	"mythread.h"
+	"cliente.h"
+
+1407461164 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/mythread.cpp
+	"mythread.h"
+
+1420811431 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/server.cpp
+	"server.h"
+	"servidor.h"
+	"almacen.h"
+	"fabrica.h"
+	<string>
+
+1407461164 /home/sebas/Proyectos/dint/gatewayCIFIVE/servidor.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1420807700 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/servidor.cpp
+	"servidor.h"
+
+1420817749 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/informante.cpp
+	"informante.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+
+1420811396 /home/sebas/Proyectos/dint/gatewayCIFIVE/informante.h
+	"cliente.h"
+	"basecreator.h"
+
+1420810687 /home/sebas/Proyectos/dint/gatewayCIFIVE/basecreator.h
+	"cliente.h"
+
+1420817919 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/visor.cpp
+	"visor.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+	<map>
+
+1420811399 /home/sebas/Proyectos/dint/gatewayCIFIVE/visor.h
+	"cliente.h"
+	"basecreator.h"
+
+1420817611 source:/home/sebas/Proyectos/dint/gatewayCIFIVE/registro.cpp
+	"registro.h"
+
+1420821402 /home/sebas/Proyectos/dint/gatewayCIFIVE/registro.h
+	<vector>
+	<map>
+	<string>
+
+1407461164 source:/home/sebest/Proyectos/gatewayCIFIVE/almacen.cpp
+	"almacen.h"
+
+1407461164 /home/sebest/Proyectos/gatewayCIFIVE/almacen.h
+	<vector>
+	"cliente.h"
+
+1420824849 /home/sebest/Proyectos/gatewayCIFIVE/cliente.h
+	<string>
+
+1407461164 source:/home/sebest/Proyectos/gatewayCIFIVE/cliente.cpp
+	"cliente.h"
+
+1420815564 source:/home/sebest/Proyectos/gatewayCIFIVE/fabrica.cpp
+	"fabrica.h"
+	"almacen.h"
+	"informante.h"
+	"visor.h"
+	<cstring>
+	<cstdlib>
+
+1420814282 /home/sebest/Proyectos/gatewayCIFIVE/fabrica.h
+	"cliente.h"
+	"basecreator.h"
+	<map>
+
+1420810686 /home/sebest/Proyectos/gatewayCIFIVE/basecreator.h
+	"cliente.h"
+
+1420811396 /home/sebest/Proyectos/gatewayCIFIVE/informante.h
+	"cliente.h"
+	"basecreator.h"
+
+1420811398 /home/sebest/Proyectos/gatewayCIFIVE/visor.h
+	"cliente.h"
+	"basecreator.h"
+
+1420807080 source:/home/sebest/Proyectos/gatewayCIFIVE/main.cpp
+	<iostream>
+	"mythread.h"
+	"server.h"
+
+1407461164 /home/sebest/Proyectos/gatewayCIFIVE/mythread.h
+	<iostream>
+	<string>
+	<pthread.h>
+	<unistd.h>
+	<cstdlib>
+
+1407461164 /home/sebest/Proyectos/gatewayCIFIVE/server.h
+	<iostream>
+	<vector>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+	"mythread.h"
+	"cliente.h"
+
+1407461164 source:/home/sebest/Proyectos/gatewayCIFIVE/mythread.cpp
+	"mythread.h"
+
+1420811430 source:/home/sebest/Proyectos/gatewayCIFIVE/server.cpp
+	"server.h"
+	"servidor.h"
+	"almacen.h"
+	"fabrica.h"
+	<string>
+
+1407461164 /home/sebest/Proyectos/gatewayCIFIVE/servidor.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1420807700 source:/home/sebest/Proyectos/gatewayCIFIVE/servidor.cpp
+	"servidor.h"
+
+1420825157 source:/home/sebest/Proyectos/gatewayCIFIVE/informante.cpp
+	"informante.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+
+1420824989 /home/sebest/Proyectos/gatewayCIFIVE/registro.h
+	<vector>
+	<map>
+	<string>
+
+1420825019 source:/home/sebest/Proyectos/gatewayCIFIVE/registro.cpp
+	"registro.h"
+
