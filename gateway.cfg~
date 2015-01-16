@@ -1,0 +1,100 @@
+inventario : 
+{
+  xbees = ( 
+    {
+      posicion = 1;
+      direccion = "4032E005";
+    }, 
+    {
+      posicion = 2;
+      direccion = "403A3BC2";
+    }, 
+    {
+      posicion = 3;
+      direccion = "4032DFCA";
+    }, 
+    {
+      posicion = 4;
+      direccion = "4068DA8F";
+    }, 
+    {
+      posicion = 5;
+      direccion = "4032DFBF";
+    }, 
+    {
+      posicion = 6;
+      direccion = "4068DAA1";
+    }, 
+    {
+      posicion = 7;
+      direccion = "4068DAB0";
+    }, 
+    {
+      posicion  = 8;
+      direccion = "4068DAC5";
+    },
+    {
+      posicion = 9;
+      direccion = "4068DAA6";
+    }, 
+    {
+      posicion = 10;
+      direccion = "4068DAC3";
+    }, 
+    {
+      posicion = 11;
+      direccion = "4068DAAF";
+    }, 
+    {
+      posicion = 12;
+      direccion = "4068DAA3";
+    }, 
+    {
+      posicion = 13;
+      direccion = "4068DAC6";
+    }, 
+    {
+      posicion = 14;
+      direccion = "4068DA89";
+    }, 
+    {
+      posicion = 15;
+      direccion = "4068DA8E";
+    }, 
+    {
+      posicion = 16;
+      direccion = "4068DAB1";
+    }, 
+    {
+      posicion = 17;
+      direccion = "4068DAB6";
+    }, 
+    {
+      posicion = 18;
+      direccion = "4068DA9F";
+    }, 
+    {
+      posicion = 19;
+      direccion = "4068DA96";
+    }, 
+    {
+      posicion = 20;
+      direccion = "40680001";
+    }, 
+    {
+      posicion = 21;
+      direccion = "4068DABA";
+    }, 
+    {
+      posicion = 22;
+      direccion = "40680002";
+    }, 
+    {
+      posicion = 23;
+      direccion = "4068DAB9";
+    }, 
+    {
+      posicion = 8;
+      direccion = "101010ff";
+    } );
+};
