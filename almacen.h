@@ -19,12 +19,11 @@ class Almacen
 
         virtual ~Almacen();
         static std::vector<Cliente*> clientes;
+
     protected:
     private:
         Almacen();
         static Almacen* s_pInstance;
-
-
 };
 typedef Almacen ElAlmacen;
 

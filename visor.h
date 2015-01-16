@@ -13,7 +13,7 @@ class Visor : public Cliente
         virtual void setSocket(int socket){m_socket = socket;}
         virtual void setName(std::string name){m_name = name;}
         virtual std::string getName(void){return m_name;}
-        virtual void procesarDatos(char* datos, int len);
+        virtual void procesarDatos(char* buffer, int len);
         virtual void setId(int id){m_id = id;}
         virtual int getId(void){return m_id;}
         virtual std::string getStateID() const {return s_type;}

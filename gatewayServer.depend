@@ -196,3 +196,123 @@
 1420825019 source:/home/sebest/Proyectos/gatewayCIFIVE/registro.cpp
 	"registro.h"
 
+1421410496 source:/home/sebas/Proyectos/dint/rabid-gateway/almacen.cpp
+	"almacen.h"
+
+1421410544 /home/sebas/Proyectos/dint/rabid-gateway/almacen.h
+	<vector>
+	"cliente.h"
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/cliente.h
+	<string>
+
+1420843495 source:/home/sebas/Proyectos/dint/rabid-gateway/cliente.cpp
+	"cliente.h"
+
+1421410990 source:/home/sebas/Proyectos/dint/rabid-gateway/fabrica.cpp
+	"fabrica.h"
+	"almacen.h"
+	"informante.h"
+	"visor.h"
+	"administrador.h"
+	<cstring>
+	<cstdlib>
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/fabrica.h
+	"cliente.h"
+	"basecreator.h"
+	<map>
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/basecreator.h
+	"cliente.h"
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/informante.h
+	"cliente.h"
+	"basecreator.h"
+
+1421410946 /home/sebas/Proyectos/dint/rabid-gateway/visor.h
+	"cliente.h"
+	"basecreator.h"
+
+1420843495 source:/home/sebas/Proyectos/dint/rabid-gateway/informante.cpp
+	"informante.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/servidor.h
+	<iostream>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+
+1421416520 /home/sebas/Proyectos/dint/rabid-gateway/registro.h
+	<vector>
+	<map>
+	<string>
+	<iostream>
+	<iomanip>
+	<cstdlib>
+	<libconfig.h++>
+
+1421417045 source:/home/sebas/Proyectos/dint/rabid-gateway/main.cpp
+	<iostream>
+	"mythread.h"
+	"server.h"
+	"registro.h"
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/mythread.h
+	<iostream>
+	<string>
+	<pthread.h>
+	<unistd.h>
+	<cstdlib>
+
+1420843495 /home/sebas/Proyectos/dint/rabid-gateway/server.h
+	<iostream>
+	<vector>
+	<cstdio>
+	<cstdlib>
+	<cstring>
+	<sys/socket.h>
+	<netinet/in.h>
+	"mythread.h"
+	"cliente.h"
+
+1420843495 source:/home/sebas/Proyectos/dint/rabid-gateway/mythread.cpp
+	"mythread.h"
+
+1421416982 source:/home/sebas/Proyectos/dint/rabid-gateway/registro.cpp
+	"registro.h"
+	<sstream>
+
+1420843495 source:/home/sebas/Proyectos/dint/rabid-gateway/server.cpp
+	"server.h"
+	"servidor.h"
+	"almacen.h"
+	"fabrica.h"
+	<string>
+
+1420843495 source:/home/sebas/Proyectos/dint/rabid-gateway/servidor.cpp
+	"servidor.h"
+
+1421411024 source:/home/sebas/Proyectos/dint/rabid-gateway/visor.cpp
+	"visor.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+	<map>
+
+1421413562 source:/home/sebas/Proyectos/dint/rabid-gateway/administrador.cpp
+	"administrador.h"
+	"almacen.h"
+	"servidor.h"
+	"registro.h"
+	<map>
+
+1421410939 /home/sebas/Proyectos/dint/rabid-gateway/administrador.h
+	"cliente.h"
+	"basecreator.h"
+

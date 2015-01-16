@@ -2,6 +2,7 @@
 #include "almacen.h"
 #include "informante.h"
 #include "visor.h"
+#include "administrador.h"
 
 #include <cstring>
 #include <cstdlib>
@@ -18,6 +19,7 @@ Fabrica::Fabrica()
     m_Ukids = 0;
     registerType("informante",new CreateInformante());
     registerType("visor",new CreateVisor());
+    registerType("administrador",new CreateAdministrador());
 
 }
 
@@ -44,6 +46,12 @@ Cliente* Fabrica::fabricar(char* buffer, int len, int socket)
         else if(strcmp(pch,"informante") == 0)
         {
             c = create("informante");
+            c->setId(m_Ukids);
+            m_Ukids++;
+        }
+        else if(strcmp(pch,"administrador") == 0)
+        {
+            c = create("administrador");
             c->setId(m_Ukids);
             m_Ukids++;
         }

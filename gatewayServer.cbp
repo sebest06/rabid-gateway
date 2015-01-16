@@ -29,11 +29,15 @@
 			</Target>
 		</Build>
 		<Compiler>
+			<Add option="-std=c++11" />
 			<Add option="-Wall" />
 		</Compiler>
 		<Linker>
 			<Add option="-lpthread" />
+			<Add option="-lconfig++" />
 		</Linker>
+		<Unit filename="administrador.cpp" />
+		<Unit filename="administrador.h" />
 		<Unit filename="almacen.cpp" />
 		<Unit filename="almacen.h" />
 		<Unit filename="basecreator.h" />
