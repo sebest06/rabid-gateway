@@ -6,11 +6,18 @@
 using namespace std;
 
 int main() {
+
   cout << "Running!" << endl;
 
   ElRegistro::Instance()->setConfigFile("gateway.cfg");
+  std::map<unsigned int,unsigned int> *test;
+  test = ElRegistro::Instance()->getWidget();
 
-//    ElRegistro::Instance()->setWidget(8,0x101010FF);
+  for (std::map<unsigned int,unsigned int>::iterator it=test->begin(); it!=test->end(); ++it)
+    {
+        printf("widget[%d] = %d\n",it->first,it->second);
+    }
+
   Server *s;
   s = new Server();
 

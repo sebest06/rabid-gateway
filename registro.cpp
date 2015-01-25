@@ -14,8 +14,29 @@ Registro::~Registro()
 
 void Registro::setRegistro(unsigned int direccion, unsigned int valor)
 {
+    timeval tim;
+    gettimeofday(&tim, NULL);
     m_registro[direccion] = valor;
+    m_aliveRegister[direccion] = tim;
 }
+
+bool Registro::checkAlive(unsigned int direccion)
+{
+    timeval tim;
+    double t1,t2;
+    gettimeofday(&tim, NULL);
+    t1=tim.tv_sec;
+    t2=m_aliveRegister[direccion].tv_sec;
+
+    if((t1-t2) > 60*3)
+    {
+        m_registro.erase(direccion);
+        m_aliveRegister.erase(direccion);
+        return false;
+    }
+    return true;
+}
+
 
 void Registro::setWidget(unsigned int posicion, unsigned int direccion)
 {

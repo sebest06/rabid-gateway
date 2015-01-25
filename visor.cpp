@@ -24,6 +24,7 @@ void Visor::procesarDatos(char* buffer, int len)
     std::vector<char> salida;
     char *send;
     int sizeBuf  = 0;
+    double duracion;
     pch = strtok (buffer," ,.-/\r\n");
     int n;
     if(pch != NULL)
@@ -35,15 +36,18 @@ void Visor::procesarDatos(char* buffer, int len)
             std::cout << "Size = " << dato->size() << "\n";
             for (std::map<unsigned int,unsigned int>::iterator it=dato->begin(); it!=dato->end(); ++it)
             {
-                std::cout << it->first << " => " << it->second << '\n';
+                if(ElRegistro::Instance()->checkAlive(it->first))
+                {
 
-                send[sizeBuf+0] = (it->first & 0xff000000) >> 24;
-                send[sizeBuf+1] = (it->first & 0xff0000) >> 16;
-                send[sizeBuf+2] = (it->first & 0xff00) >> 8;
-                send[sizeBuf+3] = it->first & 0xff;
-                send[sizeBuf+4] = (it->second & 0xff00) >> 8;
-                send[sizeBuf+5] = it->second & 0xff;
-                sizeBuf += 6;
+                    std::cout << it->first << " => " << it->second << '\n';
+                    send[sizeBuf+0] = (it->first & 0xff000000) >> 24;
+                    send[sizeBuf+1] = (it->first & 0xff0000) >> 16;
+                    send[sizeBuf+2] = (it->first & 0xff00) >> 8;
+                    send[sizeBuf+3] = it->first & 0xff;
+                    send[sizeBuf+4] = (it->second & 0xff00) >> 8;
+                    send[sizeBuf+5] = it->second & 0xff;
+                    sizeBuf += 6;
+                }
             }
             for(size_t i=0; i<ElAlmacen::Instance()->clientes.size(); i++)
             {
